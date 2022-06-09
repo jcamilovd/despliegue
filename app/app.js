@@ -23,7 +23,7 @@ const updateDocument = require('./routes/updateDocument');
 const deleteDocument = require('./routes/deleteDocument');
 const deleteShop = require('./routes/deleteShop');
 const myConsultDocuments = require('./routes/myConsultDocuments'); 
-const myConsultDocumentsFound = require('./routes/myConsultDocumentsFound');  
+//const myConsultDocumentsFound = require('./routes/myConsultDocumentsFound');  
 const consultShops = require('./routes/consultShops'); 
 
 const app = express()
@@ -56,7 +56,6 @@ const app = express()
 
 app.get('/home', (req, res) =>{
   res.send('Welcome to Report Documents');
-  
 });
 
 module.exports = app;
