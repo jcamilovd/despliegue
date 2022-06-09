@@ -5,4 +5,4 @@ const server = app.listen(port, () => {
   console.log(`Express server listening on port ${port}`);
 });
 
-module.exports = {app,server};
+module.exports = app;
