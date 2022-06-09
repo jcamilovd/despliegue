@@ -56,6 +56,7 @@ const app = express()
 
 app.get('/home', (req, res) =>{
   res.send('Welcome to Report Documents');
+  
 });
 
 module.exports = app;
