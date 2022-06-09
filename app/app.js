@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const bearerToken = require('express-bearer-token');
 const cookieParser = require('cookie-parser');
 
-const registerUser = require('./routes/registerUser');
+//const registerUser = require('./routes/registerUser');
 const registerShop = require('./routes/registerShop');  
 const login = require('./routes/login'); 
 const loginShop = require('./routes/loginShop'); 
@@ -33,7 +33,7 @@ const app = express()
   .use(cookieParser())
   .use(bearerToken());
 
-  app.use('/registerUser', registerUser);
+  //app.use('/registerUser', registerUser);
   app.use('/registerShop', registerShop);
   app.use('/login', login);
   app.use('/loginShop', loginShop);
