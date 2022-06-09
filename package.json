@@ -20,6 +20,6 @@
   },
   "scripts": {
     "test": "jest --verbose --silent --coverage test/document.test.js",
-    "start": "node start -p 10101"
+    "start": "node index -p 10101"
   }
 }
