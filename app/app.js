@@ -55,7 +55,7 @@ const app = express()
   //app.use('/myConsultDocumentsFound', myConsultDocumentsFound);
 
 app.get('/home', (req, res) =>{
-  res.send('Welcome to Report Documents');
+  res.send('Welcome to pepito Documents');
 });
 
 module.exports = app;
